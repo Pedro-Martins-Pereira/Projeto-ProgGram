@@ -7,8 +7,33 @@ body{
 /*BEGINNING HEADER*/
 
 header{
-    background-image: linear-gradient(gray,black);
+    background-image: linear-gradient(rgb(85, 85, 85),black);
     height: 200px;
 }
 
+.div-header{
+    position: relative;
+}
+
+.div-header img{
+    height: 140px;
+    margin: 20px 140px;
+}
+
+.div-header nav{
+    position:absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%)
+}
+
+.div-header a, li{
+    display: inline;
+    margin: 0 50px 0 0;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 /*END HEADER*/
