@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*BEGINNING HEADER*/
+
+header{
+    background-image: linear-gradient(gray,black);
+    height: 200px;
+}
+
+/*END HEADER*/
