@@ -18,6 +18,11 @@ header{
 .div-header img{
     height: 140px;
     margin: 20px 140px;
+    transition: 1.6s;
+}
+
+.div-header img:hover{
+    transform: rotate(720deg);
 }
 
 .div-header nav{
@@ -35,5 +40,9 @@ header{
     font-size: 1.5em;
     text-decoration: none;
     text-transform: uppercase;
+    transition: 0.2s all;
+}
+li a:hover{
+    font-size: 1.6em;
 }
 /*END HEADER*/
